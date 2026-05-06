@@ -30,7 +30,7 @@ The model is trained on the **NACC** dataset and evaluated on unseen **ADNI** an
 ## Proposed Pipeline
 
 <p align="center">
-  <img src="figures/training_pipeline.jpg" width="100%">
+  <img src="figures/main_pipeline.png" width="100%">
 </p>
 
 The pipeline consists of:
@@ -45,7 +45,7 @@ The pipeline consists of:
 ## Region Mixing Strategy
 
 <p align="center">
-  <img src="figures/region_mixing.jpg" height="450">
+  <img src="figures/region_mixing.png" width="60%">
 </p>
 
 Given two MRI scans, distance-transform-based masks are used to divide the brain into multiple non-overlapping regions. Regions from different samples are then spatially combined to generate anatomically meaningful augmented images while preserving structural integrity.
@@ -61,6 +61,7 @@ Given two MRI scans, distance-transform-based masks are used to divide the brain
 - Plug-and-play augmentation strategy adaptable to other neurodegenerative diseases
 
 ---
+
 ## Repository Structure
 
 ```text
@@ -82,11 +83,6 @@ project/
 ├── figures/
 │   ├── main_pipeline.png
 │   ├── region_mixing.png
-│   ├── Methodology.pdf
-│   └── Region.pdf
-│
-├── requirements.txt
-├── LICENSE
 └── README.md
 ```
 
