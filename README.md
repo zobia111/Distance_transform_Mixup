@@ -14,11 +14,6 @@ Deep learning models for Alzheimer’s disease classification from structural MR
 
 This work proposes a **Distance Transform Guided Mixup** strategy for **single-domain generalization (SDG)** in Alzheimer's disease classification. Instead of performing random image interpolation, the proposed approach computes distance transforms of MRI scans and performs region-aware mixing between samples while preserving anatomical structure.
 
-The framework utilizes:
-- Region-aware augmentation using distance transforms
-- A 3D U-Net feature extractor
-- Cross-dataset evaluation under domain shift conditions
-
 The model is trained on the **NACC** dataset and evaluated on unseen **ADNI** and **AIBL** datasets.
 
 ---
