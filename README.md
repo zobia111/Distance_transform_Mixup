@@ -17,7 +17,6 @@ This work proposes a **Distance Transform Guided Mixup** strategy for **single-d
 The framework utilizes:
 - Region-aware augmentation using distance transforms
 - A 3D U-Net feature extractor
-- Weighted soft cross-entropy loss
 - Cross-dataset evaluation under domain shift conditions
 
 The model is trained on the **NACC** dataset and evaluated on unseen **ADNI** and **AIBL** datasets.
