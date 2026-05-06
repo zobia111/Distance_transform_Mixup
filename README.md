@@ -24,13 +24,6 @@ The model is trained on the **NACC** dataset and evaluated on unseen **ADNI** an
   <img src="figures/training_pipeline.jpg" width="100%">
 </p>
 
-The pipeline consists of:
-1. MRI preprocessing
-2. Distance transform computation
-3. Region-aware mixup augmentation
-4. 3D U-Net feature extraction
-5. Alzheimer’s disease classification
-
 ---
 
 ## Region Mixing Strategy
