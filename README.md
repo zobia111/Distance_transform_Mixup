@@ -26,16 +26,6 @@ The model is trained on the **NACC** dataset and evaluated on unseen **ADNI** an
 
 ---
 
-## Region Mixing Strategy
-
-<p align="center">
-  <img src="figures/region_mixing.jpg" width="60%">
-</p>
-
-Given two MRI scans, distance-transform-based masks are used to divide the brain into multiple non-overlapping regions. Regions from different samples are then spatially combined to generate anatomically meaningful augmented images while preserving structural integrity.
-
----
-
 ## Key Contributions
 
 - Novel distance-transform-guided mixup augmentation for Alzheimer's disease classification
