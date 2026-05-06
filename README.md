@@ -1,8 +1,5 @@
 # Distance Transform Guided Mixup for Alzheimer's Disease Classification
 
-Official implementation of:
-
-**Distance Transform Guided Mixup for Alzheimer’s Detection**  
 Accepted at **IEEE SIU 2025**
 
 ## Paper
