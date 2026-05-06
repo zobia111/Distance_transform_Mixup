@@ -75,46 +75,6 @@ The modular Python project version is included for cleaner project organization 
 
 ---
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your_username/your_repo.git
-cd your_repo
-```
-
-Create environment:
-
-```bash
-conda create -n ad_mixup python=3.10
-conda activate ad_mixup
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Training
-
-Run training:
-
-```bash
-python train.py
-```
-
-Or use the notebook version:
-
-```text
-notebook/Distance_Transform.ipynb
-```
-
----
-
 ## Citation
 
 If you find this work useful, please cite:
