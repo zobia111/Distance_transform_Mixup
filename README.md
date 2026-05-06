@@ -45,7 +45,7 @@ The pipeline consists of:
 ## Region Mixing Strategy
 
 <p align="center">
-  <img src="figures/region_mixing.jpg" width="60%">
+  <img src="figures/region_mixing.jpg" height="450">
 </p>
 
 Given two MRI scans, distance-transform-based masks are used to divide the brain into multiple non-overlapping regions. Regions from different samples are then spatially combined to generate anatomically meaningful augmented images while preserving structural integrity.
