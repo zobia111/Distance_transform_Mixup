@@ -61,26 +61,6 @@ Given two MRI scans, distance-transform-based masks are used to divide the brain
 - Plug-and-play augmentation strategy adaptable to other neurodegenerative diseases
 
 ---
-
-## Experimental Setting
-
-### Training Dataset
-- NACC
-
-### Testing Datasets
-- ADNI
-- AIBL
-
-### Classes
-- NC (Normal Cognition)
-- MCI (Mild Cognitive Impairment)
-- AD (Alzheimer’s Disease)
-
-### Backbone
-- 3D U-Net initialized with Models Genesis pretraining
-
----
-
 ## Repository Structure
 
 ```text
